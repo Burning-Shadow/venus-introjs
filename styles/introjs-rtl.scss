@@ -1,0 +1,62 @@
+.venus-introjs-tooltipbuttons {
+  text-align: left;
+  padding-top: 10px;
+
+  a.venus-introjs-button {
+    line-height: 1;
+    white-space: nowrap;
+    cursor: pointer;
+    background: #fff;
+    border: 1px solid #dcdfe6;
+    color: #606266;
+    -webkit-appearance: none;
+    text-align: center;
+    box-sizing: border-box;
+    outline: none;
+    margin: 0;
+    transition: 0.1s;
+    font-weight: 500;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    padding: 4px 8px;
+    font-size: 10px;
+    border-radius: 3px;
+    color: #fff;
+    background-color: #409eff;
+    border-color: #409eff;
+    text-shadow: none;
+    margin-left: 5px;
+    &:hover {
+      background-color: #6ab1f8;
+    }
+  }
+  a.venus-introjs-skipbutton:not(.venus-introjs-donebutton) {
+    display: none;
+  }
+}
+.venus-introjs-skipbutton {
+  margin-left: 5px;
+  float: left;
+}
+.venus-introjs-tooltip-title {
+  float: right;
+}
+.venus-introjs-tooltip {
+  direction: rtl;
+}
+.venus-introjs-prevbutton {
+  border: 1px solid #d4d4d4;
+  float: right;
+}
+.venus-introjs-nextbutton {
+  border: 1px solid #d4d4d4;
+  float: left;
+}
+.venus-introjs-bullets {
+  ul {
+    li {
+      float: right;
+    }
+  }
+}
