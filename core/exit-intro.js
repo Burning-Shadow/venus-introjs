@@ -33,7 +33,6 @@ export default function exitIntro(targetElement, force) {
   // remove overlay layers from the page
   const overlayLayers = context.querySelectorAll(".venus-introjs-overlay");
 
-  debugger;
   if (overlayLayers && overlayLayers.length) {
     forEach(overlayLayers, overlayLayer => removeChild(overlayLayer));
   }

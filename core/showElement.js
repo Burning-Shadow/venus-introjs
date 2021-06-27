@@ -388,7 +388,6 @@ export default function _showElement(currentElement, targetElement) {
     }
 
     tooltipLayer.appendChild(arrowLayer);
-    debugger;
     referenceLayer.appendChild(tooltipLayer);
 
     // next button
@@ -461,7 +460,6 @@ export default function _showElement(currentElement, targetElement) {
     buttonsLayer.appendChild(nextTooltipButton);
     tooltipLayer.appendChild(buttonsLayer);
 
-    debugger;
     // set proper position
     placeTooltip.call(
       self,
